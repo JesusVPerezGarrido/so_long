@@ -1,0 +1,9 @@
+# obj files
+obj
+
+# executable
+so_long
+*/a.out
+
+# test files
+*test*
