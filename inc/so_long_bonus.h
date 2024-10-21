@@ -6,7 +6,7 @@
 /*   By: jeperez- <jeperez-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:20:10 by jeperez-          #+#    #+#             */
-/*   Updated: 2024/10/21 14:36:04 by jeperez-         ###   ########.fr       */
+/*   Updated: 2024/10/21 17:06:10 by jeperez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ typedef enum e_term_code
 	MLX_ERROR,
 	TEXTURE_ERROR,
 	DEAD,
+	ARG_NUMBER,
 }	t_term_code;
 
 typedef struct s_position
