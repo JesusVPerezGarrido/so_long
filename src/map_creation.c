@@ -6,7 +6,7 @@
 /*   By: jeperez- <jeperez-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:34:58 by jeperez-          #+#    #+#             */
-/*   Updated: 2024/10/18 12:32:18 by jeperez-         ###   ########.fr       */
+/*   Updated: 2024/11/12 11:07:07 by jeperez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,10 +96,10 @@ void	parse_buffer(t_args *args)
 	if (args->map.coin.quantity == 0)
 		ft_terminate(args, COIN_QUANTITY);
 	args->map.player.quantity = ft_charcount(args->buffer, 'P');
-	if (args->map.player.quantity > 1)
+	if (args->map.player.quantity != 1)
 		ft_terminate(args, PLAYER_QUANTITY);
 	args->map.exit.quantity = ft_charcount(args->buffer, 'E');
-	if (args->map.exit.quantity > 1)
+	if (args->map.exit.quantity != 1)
 		ft_terminate(args, EXIT_QUANTITY);
 	parse_obj(args, &(args->map.coin), 'C');
 	parse_obj(args, &(args->map.player), 'P');

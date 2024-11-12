@@ -6,12 +6,12 @@
 /*   By: jeperez- <jeperez-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:20:10 by jeperez-          #+#    #+#             */
-/*   Updated: 2024/10/21 17:06:10 by jeperez-         ###   ########.fr       */
+/*   Updated: 2024/11/12 11:09:26 by jeperez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SO_LONG_H
-# define SO_LONG_H
+#ifndef SO_LONG_BONUS_H
+# define SO_LONG_BONUS_H
 
 # include "libft.h"
 # include <MLX42/MLX42.h>

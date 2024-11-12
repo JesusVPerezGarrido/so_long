@@ -6,7 +6,7 @@
 /*   By: jeperez- <jeperez-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 15:56:38 by jeperez-          #+#    #+#             */
-/*   Updated: 2024/10/21 14:35:36 by jeperez-         ###   ########.fr       */
+/*   Updated: 2024/11/12 11:09:14 by jeperez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	update_move_img(t_args *args)
 	char		*n_moves;
 	char		*str_moves;
 
-	if(args->images.moves)
+	if (args->images.moves)
 		mlx_delete_image(args->mlx, args->images.moves);
 	n_moves = ft_itoa(args->moves);
 	if (!n_moves)

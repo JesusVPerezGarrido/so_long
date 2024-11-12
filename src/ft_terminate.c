@@ -6,7 +6,7 @@
 /*   By: jeperez- <jeperez-@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/17 15:19:07 by jeperez-          #+#    #+#             */
-/*   Updated: 2024/10/21 17:04:52 by jeperez-         ###   ########.fr       */
+/*   Updated: 2024/11/12 11:07:55 by jeperez-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,7 +85,7 @@ void	ft_terminate(t_args *args, t_term_code type)
 	if (type == OPEN_ERROR)
 		ft_printf("Error when opening map.\n");
 	if (type == MAP_NOT_RECTANGLE)
-		ft_printf("What is a circle? do you eat it?.\n");
+		ft_printf("A shape beyond so long's comprehension!\n");
 	if (type == INVALID_CHAR)
 		ft_printf("There's an invalid char among us.\n");
 	if (type == COIN_QUANTITY)
